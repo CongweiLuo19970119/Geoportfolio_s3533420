@@ -1,0 +1,369 @@
+<!doctype html>
+<html>
+<head> <!--Contains Metadata only. Little needs to be changed in this section-->
+<meta charset="utf-8">
+<title>Geoportfolio</title> <!--Changes the name on the tab-->
+	<link rel="stylesheet" href="geoportfoliocss.css"> <!--#ID# #CSS# Put the name of your CSS document and file extension in href e.g. href="geoportfolio.css"-->
+	<link rel="icon" type="image/x-icon" href="favicon.png"> <!--#ID# #FAVICON# This changes the picture shown on the tab. Change the file name under href to your desired image e.g. href="favicon.png"-->
+</head>
+
+<body> <!--Everything in between <body> and </body> affects the display of your Geoportfolio and what is shown-->
+	<!--Start of navigation bar-->
+	<div id="sidebar" class="sidebar-animate-open" style="display:none"> <!--MUST BE AT TOP OF DOCUMENT-->
+		<button onclick="close_sidebar()" class="sidebar-menu-button close-sidebar-button">&times;</button>
+		<a href="#topofpage" class="sidebar-menu-button mainbutton">Home</a>
+		<a href="#about" class="sidebar-menu-button mainbutton">About</a>
+		<a href="#academicinfo" class="sidebar-menu-button mainbutton">Academic Information</a>
+		<a href="#industryexperience" class="sidebar-menu-button mainbutton">Industry Experience</a>
+		<a href="#sap" class="sidebar-menu-button mainbutton">Skills and Proficiencies</a>
+		<a href="#credits" class="sidebar-menu-button mainbutton">Acknowledgements</a>
+		<div class="other-sidebar-info">
+			<table class="sidebar-contact-table"> 
+				<tr>
+					<td>
+						<a href="https://au.linkedin.com/" target="_blank"><img src="linkedin.png" class="sidebar-images"></a> <!-- #ID# #LINKEDIN# Change LinkedIn link to one of your profile page -->
+					</td>
+					<td>
+						<a href="https://au.linkedin.com/" target="_blank">LinkedIn</a> <!-- #ID# #LINKEDIN# Change LinkedIn link to one of your profile page-->
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<a href="https://twitter.com/RMIT" target="_blank"><img src="twitter.png" class="sidebar-images"></a>
+					</td>
+					<td>
+						<a href="https://twitter.com/RMIT" target="_blank">Twitter</a>
+					</td>
+				</tr>
+			</table>
+		</div>
+	</div>
+	<!--End of navigation bar-->
+
+	<div class="header"> <!--Code for Header that opens the sidebar. DO NOT TOUCH-->
+		<button class="sidebar-menu-button open-sidebar-button" onclick="open_sidebar()">&#9776;</button>
+	</div>
+	
+	<div class="mapbgdiv" id="topofpage">
+		<img src="mapwelcomemod.jpg" alt="map" class="mapbg">
+		<div class="title">
+			<h1>Geoportfolio</h1>
+			<h2>Congwei Luo</h2> <!-- #ID# #NAME# INSERT YOUR NAME HERE-->
+		</div>
+	</div>
+
+	<!--ABOUT-->
+	<div class="intro bar" id="about"><h2>About</h2></div> <!-- #ID# #INTROHEADING# Change the text of the introduction bar here-->
+	<div class="about">
+		This website is the geoportfolio of Congwei Luo who was made for the subject Professional Practice. The website entails
+		
+		information that is academically and profesionally related to the field of surveying.
+		<p>
+		<p>
+			A brief introduction about myself is that I am born and raised in Shanghai, China on 19 of January 1997, I am in my fourth and final year of the 
+			Bachelor of Science (Surveying) (Honours) course. My surveying-related interests is working with creat maps in ArcGIS Pro , collection and analysis of
+			the output of Trimble Business center, and creating 3D generations of models using spatial data. My favourite surveying sujects are cartography,
+			Advanced Imaging Technology and Earth Observation Sciecne. They all belong to courses of geospatial and involve plenty of geospatial knowledge.
+		</p>
+		<p>
+		My own personal hobbies include swimming and travelling! More detailed information can be found in the About page!
+		</p>	
+	<img src="self-portrait.jpg" class="self-portrait"> 
+	<!-- #ID# #SELFPORTRAIT# Change the img src name to match the name of your own self-portrait or delete my image and name your image the same name and place it in the same folder -->
+	</div>
+	
+	<!--ACADEMIC PORTFOLIO-->
+	<div class="pagetitle" id="academicinfo">
+        <span class="title-ul">Academic Portfolio Overview</span>
+    </div>
+
+	<!--SUBJECT 1-->
+	
+	<div class="bar"><h2>Cartography</h2></div> <!-- #ID# #SUBJECT# Change the text to fit a subject you gave done yourself-->
+	<div class="academic-intro">
+		Cartography is the art and science of representing geographical areas graphically, usually on a flat surface such as a map or chart. The Cartography
+		design is the process of making a map's appearance, applying design principles and knowledge of map usage to create maps that are both aesthetically appealing and functional.
+		It includes scale, projection, spatial relationship, generalization, and symbolization and data modeling.  Map production involves the application of elements of science and art, 
+		combining graphic talent and expertise in editing and design principles with available technologies for product generation.I learned professional map making skills that will allow
+		me to design convincing maps from a range of spatial data from this course.
+         
+		<ul>
+			<li>Practical 2: Map directed at a target audience of choice using provided data of Melbourne City: Assessment 2.2:Mapping for specific User Group</li>
+			<li>Practical 3: Thematic mapping of a demographic's population using data from the Australian Bureau of Statistics (ABS):Assessment2.3:Thematic Mapping</li>
+			<li>Final Cartography Map: Free-choice on topic: Assessment3: Final Map Design</li>
+		</ul>
+		<p>
+			
+		</p>
+		<p>
+			<b>Note:</b> If map display is too small, right-click the image and 'Open in new tab' to allow zooming of the map.
+		</p>
+	</div>	
+	<div class="bar"><h3>Vietnamese population in Melbourne</h3></div>
+	<img src="Vietnamese population.PNG" class="ls-image"> <!-- #ID# #PICTURE# Change to a picture of YOUR assignment images -->
+
+	<!--SUBJECT 2-->
+
+	<div class="bar"><h2>Advanced Imaging Technology (AIT)</h2></div> <!-- #ID# #SUBJECT# Change the text to fit a subject you gave done yourself-->
+	<div class="academic-intro">
+		Advanced Imaging Technology (AIT) sets on the core concepts of remote sensing and photogrammetry and allows you to explore more advanced
+		 topics in the field. I studied the principles and techniques for extracting measurements of physical features and 
+		 other useful information from imagery data. I learned methods of work with different types of imagery data collected by diverse imagery sensors and
+		 extract semantic information as well as spatial information. 
+		<ul>
+			
+			The subject taught
+		   skills from three different Softwares:
+			
+		   <li>AgiSoft Metashape</li>
+			<li>Pix4D Mapper</li>
+			<li>ArcGIS Pro</li>
+		</ul>
+		<p>
+			For the 2023 version of the course which I completed, the assignments of this was about the concepts of photogrammetry and Lidar. 
+			It improve my level of operate softwares and ability of collbrated. 
+			It consists of 4 Assignemnts cover cotents of photogrammentry and Lidar:
+		<ul>
+			
+			<li>Aerial Triangulation using Pix4D</li>
+			<li>Produce a dense point cloud model using
+				Structure from Motion (SfM)</li>
+			<li>Point cloud exploration and basic analytics</li>
+			<li>Extracting 3D building models from point cloud</li>
+		</ul>
+		</p>
+		<p>
+		</p>In the practical of Aerial Triangulation, I created a terrain model and orthomosaic of a small area, after performing an 
+		SfM bundle adjustment of a block of photographs. The practical session was designed so that I can work from home if they need to and
+		complete the session on my own computer. 
+
+		In the practical of create dense point cloud model, I used close-range photogrammetry to build a model of the entrance to the Old Melbourne Gaol. 
+		I will capture my own images and processing them using Metashape, an SfM package used in the industry.  the session will start outside at the entrance 
+		to the Old Melbourne Gaol, as shown on the map below. This is on Victoria Street, just near the Coffee Nomad cart. 
+
+		The purpose of point cloud exploration and basic analytics is to familiarize students with point cloud data. On exercising this practical,
+		I had basic understanding of LAS Dataset and be able to use ArcGIS pro to explore and perform some basic analytics tasks on it. I understand 
+		convepts of DSM, DTM and different ways to visualize them. 
+
+		The purpose of extract 3D building models is to use lidar point cloud data in ArcGIS Pro for a real-world application, extracting the 3D 
+		representation of buildings. I completed based on what you have already learned in the practical exercise and some more features in ArcGIS
+		Pro which are introduced in this assignment. I learned methods of extract the realistic 3D representation of building footprints from the 
+		LiDAR point cloud dataset.
+
+		<p>
+			<b>Note:</b> If map display is too small, right-click the image and 'Open in new tab' to allow zooming of the map.
+		</p>
+	</div>	
+
+	<div class="bar"><h3>Aerial Triangulation using Pix4D</h3></div>
+	<img src="Pix4D.PNG" class="agt-survey"> <!-- #ID# #PICTURE# Change to a picture of YOUR assignment images -->
+	<div class="bar"><h3>Produce a dense point cloud model using structure from Motion (SfM)</h3></div>
+	<img src="a dense point mdel.PNG" class="agt-gis"> <!-- #ID# #PICTURE# Change to a picture of YOUR assignment images -->
+	<div class="bar"><h3> Point cloud exploration and basic analytics </h3></div>div>
+	<img src="Lidar.PNG" class="agt-gis"> <!-- #ID# #PICTURE# Change to a picture of YOUR assignment images -->
+	<div class="bar"><h3>Extracting 3D building models from point cloud</h3></div>
+	<img src="lidar2.PNG" class="agt-carto"> <!-- #ID# #PICTURE# Change to a picture of YOUR assignment images -->
+
+	<!--INDUSTRY EXPERIENCE-->
+
+	
+	<div class="bar"<h3></h3>Earth observation science</h3></div>
+        <span class="title-ul"></span>
+    </div>
+	<div class="academic-intro">
+		This page will briefly cover all my study experience (as of 2020) within the Earth observstion science course. 
+		This course introduced the basic principles of Earth Observation Science to me. The course includes the development of 
+		the technologies and covers fundamental concepts of Earth Observation. This course incorporated the theory and practices 
+		of using remotely sensed data for Earth Observation. I learned about the basic principles of Earth Observation, image enhancement 
+		and interpretation, satellite systems, classifications, and active remote sensing. I also developed a solid foundation in the theory
+		and practical skills for Earth Observation through remotely sensed data. This course required students to adopt advance softwares 
+		(Erdas ER Mapper,Trimble Business Center).
+	</div>
+	<p></p>
+	<b>Note:</b> photogrammentry: 1. Mission Planning and Image Measurement 2.3D Measurements and Drone Mapping /
+	                remote sensing: 3 practicals 
+	<!--COMPANY 1-->
+
+    <div class="bar"><h3>Mission Planning and Image Measurement</h3></div> <!-- #ID# #COMPANY# Change to your company name-->
+	<img src="image measure.PNG" class="">
+	<div class="job-title">Mission Planning and Image Measurement</div> <!-- #ID# #COMPANY# Change to your company position-->
+	<div class="job-time">July 2020 - Octomber 2020</div> <!--Change the month and year worked-->
+	<div class="job-overview">
+		This practical exercise provided experience with some basic exercises in mission planning and image measurement, and is designed to support 
+		and reinforce the material covered in lectures. The mission planning exercise is based on photography from an unmanned aircraft system (UAS), 
+		also known as a UAV, RPAS or drone. The image precision test is based on scanned aerial photography.
+		 
+		<p>
+			This pracical had 2 parts of exercise. The first part is based on ArduPilot Mission Planner and I learned how to use this software to 
+		create a mission plan that is an integral task in the use of UAS to capture spatial data. The second part is based on Erdas 
+		ER Mapper and I investigated the factors that affect the precision of image measurements.
+		</p>
+	</div>
+
+	<!--COMPANY 2-->
+
+	<div class="bar"><h3>3D Measurements and Drone Mapping</h3></div> <!-- #ID# #COMPANY# Change to your company name-->
+	<img src="3d map.PNG" class="">
+	<div class="job-title">3D Measurements and Drone Mapping</div> <!-- #ID# #COMPANY# Change to your company position-->
+	<div class="job-time">July 2020 - Octomber 2020</div> <!--Change the month and year worked-->
+	<div class="job-overview">
+		This practical provided experience with some basic exercises in drone mapping and 3D measurement, and is designed to support and 
+		 reinforce the material covered in lectures. The first exercise involved exploration and measurement in a 3D city model.  
+		 The second exercise generates a 3D model based on photography from an unmanned aircraft system (UAS), also known as a UAV, RPAS or drone.
+
+		</p>
+		I adopteded Trimble business center (TBC) to solved requirements of 3D  mapping. The practical exercise makes use of
+		Trimble Business Centre and a 3D city model. Trimble Business Centre must be downloaded
+		and installed on a Windows PC. Thus I downloaded some project data for Trimble
+		Business Centre. 
+	</div>
+
+	<!--Skills and Proficiencies table-->
+	<div class="bar" style="top:57px" id="sap"><h2>Skills and Proficiencies</h2></div> <!-- #ID# #SKILLS# -->
+    <div class="skills">
+        <table class="icontable">
+            <tr>
+                <td><img src="GIS.png" class="iconimages"></td>
+				<td>GIS</td>
+                <td><img src="word.png" class="iconimages"></td>
+				<td>Word document</td>
+            </tr>
+            <tr>
+                <td><img src="cartography.png" class="iconimages"></td>
+				<td>Cartographic Principles</td>
+                <td><img src="Adobe.png" class="iconimages"></td>
+				<td>Adobe PDF</td>
+            </tr>
+            <tr>
+                <td><img src="remote sensing.png" class="iconimages"></td>
+				<td>Remote Sensing</td>
+                <td><img src="drone.png" class="iconimages"></td>
+				<td>Photogrammetry and Drone Mapping</td>
+            </tr>
+            <tr>
+                <td><img src="Web design .png" class="iconimages"></td>
+				<td>Web Design: HTML & CSS</td>
+                <td><img src="PIX4D.jpg" class="iconimages"></td>
+				<td>Pix4D</td>
+            </tr>
+            <tr>
+                <td><img src="pathy.png" class="iconimages"></td>
+				<td>Python Programming</td>
+                <td><img src="TBC.jpg" class="iconimages"></td>
+				<td>Trimble Business Center</td>
+            </tr>
+        </table>
+    </div>
+
+	<!-- #ID# #CREDITS#-->
+	<div class="pagetitle" id="credits">
+        <span class="title-ul">Credits and Attributions</span>
+    </div>
+    
+    <div class="academic-intro">
+       <b> The following programming languages and software were used to create the website</b>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Visual Studio Basic</li>
+        </ul>
+       <b>The deliverables contains content from the following subjects:</b>
+        <ul>
+            <li>Cartography 2 (GEOM2079)</li>
+            <li>Advanced Imaging Technology (GEOM2086)</li>
+			<li>Earth Observation Science (GEOM2984)</li>
+        </ul>
+       <b>Special thanks to the following people who have helped me make this website with their expertise and guidance:</b>
+        <ul>
+            <li>Chayn Sun</li>
+            <li>Nicholas Lee</li>
+            
+            
+        </ul>
+        As per the policy of using the Flaticons with a free account, the attributions and crediting of the creators of the icons are as below:
+		
+	<div class="bar"><h2>Attributions of icons used:</h2></div>
+    <table id="attribution-table">
+        <tr>
+            <th><a href="https://www.flaticon.com/free-icons/database" title="GIS icons">Database icons created by Flaticon</a></th>
+            <th><img src="GIS.png" class="icon-attribute"></th>
+        </tr>
+        <tr>
+            <th><a href="https://www.flaticon.com/free-icons/draw" title="draw icons">Draw icons created by Flaticon</a></th>
+            <th><img src="cartography.png" class="icon-attribute"></th>
+        </tr>
+        <tr>
+            <th><a href="https://www.flaticon.com/free-icons/adobe-illustrator" title="adobe illustrator icons">Adobe PDF icons created by Flaticon</a></th>
+            <th><img src="Adobe.png" class="icon-attribute"></th>
+        </tr>
+        <tr>
+            <th><a href="https://www.flaticon.com/free-icons/python" title="python icons">Python icons created by Flaticon</a></th>
+            <th><img src="pathy.png" class="icon-attribute"></th>
+        </tr>
+        <tr>
+            <th><a href="https://www.flaticon.com/free-icons/html" title="html icons">Html icons created by Flaticon</a></th>
+            <th><img src="Web design .png" class="icon-attribute"></th>
+        </tr>
+        <tr>
+            <th><a href="https://www.flaticon.com/free-icons/web-site" title="web site icons">Web site icons created by Google image</a></th>
+            <th><img src="PIX4D.jpg" class="icon-attribute"></th>
+        </tr>
+        <tr>
+            <th><a href="https://www.flaticon.com/free-icons/drone" title="drone icons">Drone icons created by Flaticon</a></th>
+            <th><img src="drone.png" class="icon-attribute"></th>
+        </tr>
+        <tr>
+            <th><a href="https://www.flaticon.com/free-icons/satellite" title="satellite icons">Satellite icons created by Flaticon</a></th>
+            <th><img src="remote sensing.png" class="icon-attribute"></th>
+        </tr>
+        <tr>
+            <th><a href="https://www.flaticon.com/free-icons/linkedin" title="linkedin icons">Linkedin icons created by Flaticon</a></th>
+            <th><img src="linkdin.png" class="icon-attribute"></th>
+        </tr>
+        <tr>
+            <th><a href="https://www.flaticon.com/free-icons/twitter" title="Facebook icons">Twitter icons created by Flaticon</a></th>
+            <th><img src="facebook.png" class="icon-attribute"></th>
+        </tr>
+    </table>
+	</div>
+
+
+
+	<div class="footer"> <!-- #ID# #FOOTER# -->
+		<div class="compilationinformation"> <!-- #ID# #COMPINFO# -->
+			<b>Compilation information</b>
+			<br>Website made in Adobe Dreamweaver and Visual Studio Code.
+			<br>HTML and CSS code written by Odeo as part of undergraduate Professional Practice course (GEOMOD10).
+		</div>
+		<table class="contacttable">
+			<caption><h2>Contact Information</h2></caption>
+			<tr>
+				<th><img src="mappin.png" alt="pointer" class="contactimages"></th>
+				<th><img src="mail.png" alt="email" class="contactimages"></th>
+				<th><img src="phone.png" alt="phone" class="contactimages"></th>
+			</tr>
+			<tr>
+				<th>
+					Work address:
+					<br>RMIT University, GPO Box 2476, Melbourne VIC 3001 Australia</th>
+				<th>
+					Email Congwei Luo here:
+					<br><a href = "s3533420@student.rmit.edu.au">s3533420@student.rmit.edu.au</a>
+				</th>
+				<th>Mobile:
+					<br>0420811688
+				</th>
+			</tr>
+		</table>
+	</div>
+</body>
+<script> //Code for opening and closing sidebar. DO NOT TOUCH OR EDIT THIS AS THIS IS WHAT WORKS THE SIDEBAR NAVIGATION
+    function open_sidebar() {
+      document.getElementById("sidebar").style.display = "block";
+    }
+    function close_sidebar() {
+      document.getElementById("sidebar").style.display = "none";
+    }
+</script>
+</html>
